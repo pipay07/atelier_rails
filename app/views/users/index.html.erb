@@ -1,0 +1,24 @@
+<h1>Liste de gens</h1>
+<%= form_tag '/', :method => 'get' do %>
+	<%= label_tag :"tri" %>
+	<%= select_tag :tri, options_for_select(["Tous", "Alphabetique", "Admin"], params[:tri]) %>
+	<%= submit_tag "Trier" %>
+<% end %>
+<table>
+		<tr>
+			<td><h3>Nom</h3></td>
+			<td><h3>Pseudo</h3></td>
+			<td><h3>Email</h3></td>
+			<td><h3>Admin</h3></td>
+		</tr>	
+	<% @users.each do |user| %>
+		<tr>
+			<td><%= user.name %></td>
+			<td><%= user.pseudo %></td>
+			<td><%= user.email %></td>
+			<td><%= user.admin %></td>
+		</tr>
+	<% end %>
+</table>
+
+

@@ -1,0 +1,106 @@
+[
+    {
+        "name": "angie",
+        "profile": {
+            "first_name": "Angie",
+            "email": "angie.26@live.fr"
+        },
+        "is_admin": false
+    },
+    {
+        "name": "bamboula",        
+        "profile": {
+            "first_name": "Bamboula",
+            "email": "bamboula@live.fr"
+        },
+        "is_admin": false        
+    },
+    {
+        "name": "boisdecombier",
+        "profile": {
+            "first_name": "Boisdecombier",
+            "email": "boisdecombier@gmail.com"
+        },
+        "is_admin": true
+    },
+    {
+        "name": "bricephatza",
+        "profile": {
+            "first_name": "B",
+            "email": "b.haphuoc@gmail.com"
+        },
+        "is_admin": false
+    },
+    {
+        "name": "dan07",
+        "profile": {
+            "first_name": "Agnard",
+            "email": "agnard.daniel@laposte.net"
+        },
+        "is_admin": false
+    },
+    {
+        "name": "david.malosse",
+        "profile": {
+            "first_name": "David",
+            "email": "david.malosse@voila.fr"
+        },
+        "is_admin": false
+    },
+    {
+        "name": "guylallement",
+        "profile": {
+            "first_name": "Guy Lallement",
+            "email": "guy-lallement@orange.fr"
+        },
+        "is_admin": false
+    },
+    {
+        "name": "marieherelier",
+        "profile": {
+            "first_name": "MarieHerelier",
+            "email": "marieherelier@gmail.com"
+        },
+        "is_admin": false
+    },
+    {
+        "name": "mathf07",
+        "profile": {
+            "first_name": "Mathieu",
+            "email": "mathieu.feroul@bbox.fr"
+        },
+        "is_admin": false
+    },
+    {
+        "name": "maud",
+        "profile": {
+            "first_name": "Mluquet",
+            "email": "mluquet@gmail.com"
+        },
+        "is_admin": false
+    },
+    {
+        "name": "steph",
+        "profile": {
+            "first_name": "Steph",
+            "email": "stephane.vey@laposte.net"
+        },
+        "is_admin": true
+    },
+    {
+        "name": "thesystem",
+        "profile": {
+            "first_name": "Ethan",
+            "email": "ethancmk@hotmail.fr"
+        },
+        "is_admin": true
+    },
+    {
+        "name": "thibault",
+        "profile": {
+            "first_name": "Descampsthibault",
+            "email": "descampsthibault@yahoo.fr"
+        },
+        "is_admin": true
+    }
+]
