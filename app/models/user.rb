@@ -1,11 +1,12 @@
 class User < ActiveRecord::Base
 	def self.trier(tri)
-		if tri == 'Tous'
-			all
-		elsif tri == 'Alphabetique'
+		case tri
+		when 'Alphabetique'
 			alphabetical_order
-		else tri == 'Admin'
+		when 'Admin'
 			is_admin
+		else
+			all
 		end	
 	end
 	def self.is_admin

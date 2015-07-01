@@ -1,6 +1,6 @@
 include SeedHelper
 User.destroy_all
-parse_json('db/users .json').each do |data|
+parse_json('db/users.json').each do |data|
 	@user = User.new
 	@user.name = data["profile"]["first_name"]
 	@user.pseudo = data["name"]
